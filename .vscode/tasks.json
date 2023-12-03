@@ -1,0 +1,17 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+            "label": "go: pre build (debug)",
+            "type": "shell",
+            "command": ".vscode/pre-build-debug.sh",
+            "options": {
+                "cwd": "${workspaceFolder:lima}"
+            },
+            "presentation": {
+                "reveal": "silent",
+                "focus": false
+            }
+        }
+	]
+}
